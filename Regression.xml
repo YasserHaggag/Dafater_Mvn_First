@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DafaterRegression" parallel="false">
+<parameter name="browser" value="firefox"></parameter>
+  <test name="test">
+    <classes>
+      <class name="Dafater_Auto_MyOwn.Selenuim.LoginPage_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DafaterRegression]">
+  <parameter name="browser" value="headless"/>
+  <test thread-count="5" name="test(failed)">
+    <classes>
+      <class name="Dafater_Auto_MyOwn.Selenuim.LoginPage_Test">
+        <methods>
+          <include name="Login_With_Valid_Data"/>
+          <include name="Initiation"/>
+          <include name="TearDown"/>
+          <include name="ScreenshotOnFailure"/>
+        </methods>
+      </class> <!-- Dafater_Auto_MyOwn.Selenuim.LoginPage_Test -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [DafaterRegression] -->
