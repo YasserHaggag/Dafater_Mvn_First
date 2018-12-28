@@ -20,7 +20,7 @@ public class LoginPage_Test extends BaseTest{
 		
 		LoginPage.Login("administrator", "admin");
 		//Help.CaptureScreenShot("Login_With_Valid_Data");
-		Assert.assertEquals(Mainpage.Dashboard_Tab.getText(), "Dashboard");
+		Assert.assertEquals(Mainpage.Dashboard_Tab.getText(), "Dasboard");
 		//Assert.assertEquals(Mainpage.Dashboard_Tab.isDisplayed());
 	}
 
